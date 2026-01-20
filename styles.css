@@ -1,1 +1,20 @@
-/*  your css code here. If applicable */
+#container {
+  margin: 20px;
+}
+
+/* Before pseudo-element */
+#container::before {
+  content: "Before Content";
+  color: #f00;
+  font-size: 20px;
+ 
+}
+
+/* After pseudo-element */
+#container::after {
+  content: "After Content";
+  color: #f00;
+  font-size: 20px;
+ 
+}
+
