@@ -1,20 +1,13 @@
-#container {
-    margin: 20px;
+div::before {
+    content: "Before Element";
+    color: rgb(255, 0, 0);
 }
 
-/* before text */
-#container::before {
-    content: "Before Element ";
+div::after {
+    content: "After Element";
     color: rgb(255, 0, 0);
-    font-size: 20px;
 }
 
-/* after text */
-#container::after {
-    content: " After Element";
-    color: rgb(255, 0, 0);
-    font-size: 20px;
-}
 
 
 
